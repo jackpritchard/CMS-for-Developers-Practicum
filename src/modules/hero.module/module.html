@@ -1,0 +1,13 @@
+<section class="hero">
+  <div class="hero__content">
+    {% if title %}
+      <{{ title_level }}>{{ title }}</{{ title_level }}>
+    {% endif %}
+
+    {% if text %}
+      <p>{{ text }}</p>
+    {% endif %}
+  </div>
+
+  <img class="hero__image" src="{{ image.src }}" alt="{{ image.alt }}">
+</section>

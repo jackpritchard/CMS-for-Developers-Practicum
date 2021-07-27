@@ -1,0 +1,13 @@
+node_modules
+dist
+.env*
+package-lock.json
+yarn.lock
+!.env.example
+!.gitkeep
+hubspot.config.yml
+src/hubspot/assets
+hubspot.config.yml.organic
+hubspot.config.yml.dev
+.prettierrc
+.DS_Store

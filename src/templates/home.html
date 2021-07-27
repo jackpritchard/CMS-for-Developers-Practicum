@@ -1,0 +1,12 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Home
+  screenshotPath: ../images/template-previews/home.png
+-->
+{% extends "./layouts/base.html" %} {% block body %}
+<main id="main-content" class="body-container-wrapper">
+	{% dnd_area 'dnd_area' class='body-container body-container--home',
+	label='Main section' %} {% end_dnd_area %}
+</main>
+{% endblock body %}
