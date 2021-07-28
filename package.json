@@ -1,18 +1,18 @@
 {
-	"name": "hubspot-test",
-	"version": "1.0.0",
-	"main": "index.js",
-	"repository": "https://github.com/jackpritchard/CMS-for-Developers-Practicum.git",
-	"author": "jackpritchard <jack@noface.co.uk>",
-	"license": "MIT",
-	"scripts": {
-		"d": "npm run website:upload",
-		"dev": "npm run website:upload",
-		"develop": "npm run website:upload",
-		"website:upload": "hs upload src hubspot-exam",
-		"website:watch": "hs watch --disable-initial hubspot-exam src"
-	},
-	"dependencies": {
-		"@hubspot/cli": "^3.0.6"
-	}
+  "name": "hubspot-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jackpritchard/CMS-for-Developers-Practicum.git",
+  "author": "jackpritchard <jack@noface.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "d": "npm run website:watch",
+    "dev": "npm run website:watch",
+    "develop": "npm run website:watch",
+    "website:upload": "hs upload src hubspot-exam",
+    "website:watch": "hs watch --disable-initial src hubspot-exam"
+  },
+  "dependencies": {
+    "@hubspot/cli": "^3.0.6"
+  }
 }
